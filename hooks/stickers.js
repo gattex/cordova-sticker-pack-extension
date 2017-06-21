@@ -48,6 +48,7 @@ module.exports = function (context) {
 
             var stickerPackName = projectName + " Stickers";
             // var stickerPackName = "Stickers";
+                        console.log(" ########## CORRIENDO ##########");
 
             pbxProject.addStickersTarget(stickerPackName + ".appex", bundleId, stickerPackName);
             stickersKey = pbxProject.addStickerResourceFile("Stickers.xcassets", {}, stickerPackName);
